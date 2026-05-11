@@ -23,11 +23,11 @@ const Footer = () => {
             <div className="mt-4 space-y-2">
               <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
                 <Mail size={18} className="text-blue-500" />
-                <span className="text-sm font-medium">wsharks003@gmail.com</span>
+                <span className="text-sm font-medium">[EMAIL_ADDRESS]</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
                 <Phone size={18} className="text-blue-500" />
-                <span className="text-sm font-medium">+254 700 000 000</span>
+                <span className="text-sm font-medium">+254 742765445</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
                 <MapPin size={18} className="text-blue-500" />
@@ -51,7 +51,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <button 
+          <button
             onClick={scrollToTop}
             className="p-3 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/20"
           >
