@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Code as Github, Globe as Linkedin, Share2 as Twitter, Mail, ArrowUp } from 'lucide-react';
+import { Code as Github, Globe as Linkedin, Share2 as Twitter, Mail, ArrowUp, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -20,6 +20,20 @@ const Footer = () => {
             <p className="text-slate-500 text-sm">
               Software Developer & Network Engineer
             </p>
+            <div className="mt-4 space-y-2">
+              <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
+                <Mail size={18} className="text-blue-500" />
+                <span className="text-sm font-medium">wsharks003@gmail.com</span>
+              </div>
+              <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
+                <Phone size={18} className="text-blue-500" />
+                <span className="text-sm font-medium">+254 700 000 000</span>
+              </div>
+              <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
+                <MapPin size={18} className="text-blue-500" />
+                <span className="text-sm font-medium">Nairobi, Kenya</span>
+              </div>
+            </div>
           </div>
 
           <div className="flex space-x-6">
