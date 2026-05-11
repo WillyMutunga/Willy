@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="mt-4 space-y-2">
               <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
                 <Mail size={18} className="text-blue-500" />
-                <span className="text-sm font-medium">[EMAIL_ADDRESS]</span>
+                <span className="text-sm font-medium">wsharks003@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-500 hover:text-blue-600 transition-colors cursor-pointer">
                 <Phone size={18} className="text-blue-500" />
