@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-6">
-            <a href="#" className="p-3 rounded-full glass hover:text-blue-600 transition-all shadow-sm">
+            <a href="https://github.com/WillyMutunga" target="_blank" rel="noreferrer" className="p-3 rounded-full glass hover:text-blue-600 transition-all shadow-sm">
               <Github size={20} />
             </a>
             <a href="https://www.linkedin.com/in/willy-mutunga/" target="_blank" rel="noreferrer" className="p-3 rounded-full glass hover:text-blue-600 transition-all shadow-sm">
@@ -32,7 +32,7 @@ const Footer = () => {
             <a href="#" className="p-3 rounded-full glass hover:text-blue-600 transition-all shadow-sm">
               <Twitter size={20} />
             </a>
-            <a href="mailto:[]" className="p-3 rounded-full glass hover:text-blue-600 transition-all shadow-sm">
+            <a href="mailto:wsharks003@gmail.com" className="p-3 rounded-full glass hover:text-blue-600 transition-all shadow-sm">
               <Mail size={20} />
             </a>
           </div>
